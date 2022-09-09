@@ -35,18 +35,18 @@ body{
 .wrapper{
     margin: 0 auto;
     text-align: center;
-    width: 1280px;
+    width: 100%;
 }
 .header{
     background: url(../img/clock.png) center no-repeat;
     background-size: contain;
 }
 .title_img{
-    width: 600px;
-    height: 225px;
+    width: 46.875vw;
+    height: 17.578vw;
     overflow: hidden;
     position: relative;
-    margin: 100px auto;
+    margin: 7.813vw auto;
     
 }
 .title_img img{
@@ -59,20 +59,20 @@ body{
 
 .yellow_txt{
     color:#F5DF4D ;
-    font-size: 36px;
+    font-size: 3.125vw;
     font-family: 'OTEnjoystoriesBA';
-    margin: 100px;
+    margin: 7.813vw;
 }
 .qoute{
-    width:700px;
+    width:54.688vw;
 }
 .main_txt{
-    margin: 100px;
+    margin: 7.813vw;
     color: white;
-    font-size: 24px;
+    font-size: 1.875vw;
     background: url(../img/quotes.png) no-repeat center;
-    background-size: 800px;
-    line-height: 40px;
+    background-size: 62.500vw;
+    line-height: 3.125vw;
     font-family: 'GmarketSansMedium'
 }
 
@@ -83,34 +83,34 @@ body{
 .input_txt{
     color:white;
     font-family: 'GmarketSansMedium';
-    line-height: 80px;
-    font-size: 28px;
+    line-height: 6.250vw;
+    font-size: 2.188vw;
 }
 
 .input{
-    width: 228px;
-    height: 57px;
+    width: 17.813vw;
+    height: 4.453vw;
     border-radius: 7px;
 }
 
 .input::placeholder {
     color: #ccc;
     font-family:'GmarketSansMedium';
-    padding: 0 20px;
-    font-size: 20px;
+    padding: 0 1.563vw;
+    font-size: 1.563vw;
   }
 
 .btn{
     width: fit-content;
-    height: 66px;
-    border-radius: 56px;
+    height: 5.156vw;
+    border-radius: 4.375vw;
     border : 1px solid transparent;
     color: #5B2386;
-    font-size: 22px;
+    font-size: 1.719vw;
     font-weight: bold;
     font-family: 'GmarketSansBold';
-    padding: 0 40px;
-    margin: 80px 10px;
+    padding: 0 3.125vw;
+    margin: 6.250vw 0.781vw;
 }
 
 .yellow_btn{
@@ -120,26 +120,26 @@ body{
 .yellow_btn + .finger{
     background: url(../img/click.png) no-repeat;
     position: absolute;
-    transform: translateX(900px) translateY(-120px);
+    transform: translateX(97.656vw) translateY(-9.375vw);
     color: transparent;
 }
 
 .result{
     color: white;
-    font-size: 24px;
-    line-height: 72px;
+    font-size: 1.875vw;
+    line-height: 5.625vw;
     font-family: 'GmarketSansMedium';
 }
 
 .big_txt{
-    font-size: 72px;
+    font-size: 5.625vw;
     font-family: 'GmarketSansBold';
 }
 
 .footer{
     color: #eeee;
-    line-height: 24px;
-    margin: 30px 0;
+    line-height: 1.875vw;
+    margin: 2.344vw 0;
     font-family: 'Noto Sans KR';
 }
 
