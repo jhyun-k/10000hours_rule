@@ -89,14 +89,14 @@ body{
 
 .input{
     width: 17.813vw;
-    height: 4.453vw;
+    height: 4vw;
     border-radius: 7px;
 }
 
 .input::placeholder {
     color: #ccc;
     font-family:'GmarketSansMedium';
-    padding: 0 1.563vw;
+    padding:20px;
     font-size: 1.563vw;
   }
 
@@ -116,11 +116,11 @@ body{
 .yellow_btn{
     position: relative;
     background-color: #F5DF4D;
+    
 }
 .yellow_btn + .finger{
-    background: url(../img/click.png) no-repeat;
     position: absolute;
-    transform: translateX(97.656vw) translateY(-9.375vw);
+    transform: translateX(70vw) translateY(-100%);
     color: transparent;
 }
 
