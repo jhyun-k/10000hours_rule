@@ -120,7 +120,7 @@ body{
 }
 .yellow_btn + .finger{
     position: absolute;
-    transform: translateX(70vw) translateY(-100%);
+    transform: translateX(70vw) translateY(-9.375vw);
     color: transparent;
 }
 
