@@ -91,6 +91,7 @@ body{
     width: 17.813vw;
     height: 4vw;
     border-radius: 7px;
+    font-size: 1.563vw;
 }
 
 .input::placeholder {
