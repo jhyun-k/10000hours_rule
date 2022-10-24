@@ -148,10 +148,12 @@ body{
 }
 
 .footer{
+    width: 70%;
     color: #eeee;
-    line-height: 1.875vw;
-    margin: 2.344vw 0;
+    line-height: 1.5;
+    /* margin: 2.344vw 0; */
     font-family: 'Noto Sans KR';
+    margin: 100px auto;
 }
 
 .cont-modal{
