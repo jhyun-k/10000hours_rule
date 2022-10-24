@@ -116,7 +116,13 @@ body{
 .yellow_btn{
     position: relative;
     background-color: #F5DF4D;
+    cursor: pointer;
     
+}
+.go_btn{
+    position: relative;
+    background-color: #F5DF4D;
+    cursor: pointer;
 }
 .yellow_btn + .finger{
     position: absolute;
@@ -131,7 +137,11 @@ body{
     font-family: 'GmarketSansMedium';
 }
 
-.big_txt{
+.big_txt1{
+    font-size: 5.625vw;
+    font-family: 'GmarketSansBold';
+}
+.big_txt2{
     font-size: 5.625vw;
     font-family: 'GmarketSansBold';
 }
@@ -146,18 +156,26 @@ body{
 .cont-modal{
     background-color: white;
     width: 600px;
-    height: 600px;
+    height: 650px;
     border-radius: 20px;
     color: #5B2386;
     font-family: 'OTEnjoystoriesBA';
     font-size: 34px;
     padding-top: 20px;
     box-shadow: 12px 12px 12px 11px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    left : 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
 }
 
 .fighting{
     font-size: 80px;
 }
+
+
 .cont-modal button{
     margin: 40px;
+    background-color: #F5DF4D;
+    cursor: pointer;
 }
