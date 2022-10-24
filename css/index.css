@@ -97,8 +97,8 @@ body{
 .input::placeholder {
     color: #ccc;
     font-family:'GmarketSansMedium';
-    padding:20px;
-    font-size: 1.563vw;
+    padding:1.389vw;
+    font-size: 1.4vw;
   }
 
 .btn{
@@ -177,7 +177,7 @@ body{
 }
 
 .cont-modal button{
-    margin: 40px;
+    margin: 20px;
     background-color: #F5DF4D;
     cursor: pointer;
 }
