@@ -131,6 +131,29 @@ body{
     color: transparent;
 }
 
+.loading_img{
+    width: 150px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: spin infinite 3s linear;
+    transition: all;
+    margin-top: 50px;
+    display: none;
+}
+
+.loading_img.show{
+    display: block;
+}
+
+@keyframes spin {
+    from{
+        transform: translate(-50%, -50%) rotate(0);
+    }
+    to {
+        transform:translate(-50%, -50%) rotate(360deg);
+    }
+}
 .result{
     color: white;
     font-size: 1.875vw;
@@ -147,13 +170,23 @@ body{
     font-family: 'GmarketSansBold';
 }
 
+footer{
+    display: flex;
+    flex-direction: column;
+}
+
+footer img{
+    margin: 150px auto 20px;
+}
+
 .footer{
     width: 70%;
     color: #eeee;
     line-height: 1.5;
     /* margin: 2.344vw 0; */
     font-family: 'Noto Sans KR';
-    margin: 100px auto;
+    margin: 40px auto 100px;
+    
 }
 
 .cont-modal{
