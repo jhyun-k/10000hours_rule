@@ -1,5 +1,8 @@
 # 1만시간의 법칙
 
+구현 페이지
+https://jhyun-k.github.io/10000hours_rule/
+
 
 ![screencapture-127-0-0-1-5500-index-html-2022-10-24-20_36_20](https://user-images.githubusercontent.com/105181266/197517659-3a321df1-66dc-41bf-b466-3ea63ec1ee52.png)
 - 메인페이지
